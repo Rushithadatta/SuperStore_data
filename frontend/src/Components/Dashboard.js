@@ -9,7 +9,7 @@ export default function Dashboard() {
 
   const runQuery = async () => {
     try {
-      const response = await fetch("http://localhost:5000/query", {
+      const response = await fetch("https://superstore-data.onrender.com/query", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

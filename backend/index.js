@@ -16,7 +16,7 @@ import {
 const app = express();
 
 // ✅ Enable CORS for frontend
-app.use(cors({ origin: "http://localhost:3000" }));
+app.use(cors({ origin: "https://frontend-8kgj.onrender.com" }));
 
 // ✅ JSON parsing
 app.use(bodyParser.json());

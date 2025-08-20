@@ -34,7 +34,7 @@ export default function Analyse() {
   useEffect(() => {
     const fetchCSV = async () => {
       try {
-        const res = await axios.get("http://localhost:5000/csv");
+        const res = await axios.get("https://superstore-data.onrender.com/csv");
         Papa.parse(res.data, {
           header: true,
           skipEmptyLines: true,
